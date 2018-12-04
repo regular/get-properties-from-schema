@@ -1,0 +1,28 @@
+{
+  "name": "get-properties-from-schema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "jsonschema"
+  ],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "json8-pointer": "^0.7.1"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/get-properties-from-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regular/get-properties-from-schema/issues"
+  },
+  "homepage": "https://github.com/regular/get-properties-from-schema#readme",
+  "description": "Enumerate object properties defined in a JSON schema"
+}
